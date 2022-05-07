@@ -1,0 +1,145 @@
+body {
+  font-family: Roboto;
+}
+
+:root {
+  --basic-color: #212121;
+  --text-color: #757575;
+  --accent-color: #2196f3;
+  --hero-title-color: #ffffff;
+  --button-bkg-color: #2196f3;
+  --hero-bcg-color: #2f303a;
+}
+
+.list {
+  list-style: none;
+}
+
+/* шапка */
+header {
+  color: var(--basic-color);
+  background-color: #ffffff;
+}
+/* logo */
+.logo {
+  color: var(--basic-color);
+  font-size: 26px;
+}
+.logo:hover,
+.logo:focus {
+  color: gray;
+}
+.logo .second-color-logo {
+  color: var(--accent-color);
+}
+/* nav */
+.site-nav .link {
+  color: var(--basic-color);
+  font-size: 14px;
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--accent-color);
+}
+.site-nav .link.current {
+  color: var(--accent-color);
+}
+
+/* header contacts */
+.contacts .contacts-list {
+  font-size: 14px;
+  color: var(--text-color);
+}
+
+.contacts .contacts-list:hover,
+.contacts .contacts-list:focus {
+  color: var(--accent-color);
+}
+/* body */
+
+.section-title {
+  color: var(--basic-color);
+  font-size: 36px;
+}
+/* hero */
+.hero {
+  background-color: var(--hero-bcg-color);
+}
+
+.hero-title {
+  font-size: 44px;
+  color: var(--hero-title-color);
+}
+/* button */
+.button {
+  font-size: 16px;
+  padding: 10px 32px;
+  border-color: transparent;
+}
+.hero.button:hover,
+.hero.button:focus {
+  color: gray;
+}
+.hero.button {
+  background-color: var(--button-bkg-color);
+  color: var(--hero-title-color);
+}
+
+/* benefits */
+.benefits .title {
+  color: var(--basic-color);
+  font-size: 14px;
+}
+.benefits-text {
+  color: var(--text-color);
+  font-size: 14px;
+}
+
+/* team */
+.team {
+  background-color: #f5f4fa;
+}
+.section .member {
+  color: var(--basic-color);
+  font-size: 16px;
+}
+.section .specialty {
+  color: var(--text-color);
+  font-size: 16px;
+}
+
+/* footer */
+footer {
+  background-color: var(--hero-bcg-color);
+}
+footer > .logo {
+  color: var(--hero-title-color);
+  font-size: 26px;
+  font-family: Oleo Script;
+}
+footer > .logo:hover,
+footer > .logo:focus {
+  color: #757575;
+}
+/* footer-logo */
+.footer-color-logo {
+  color: var(--accent-color);
+  font-family: Raleway;
+}
+
+.adress .location {
+  color: var(--hero-title-color);
+  font-size: 14px;
+}
+.adress .location:hover,
+.adress .location:focus {
+  color: var(--accent-color);
+}
+.adress .contacts {
+  color: var(--hero-title-color);
+}
+
+.adress .contacts:hover,
+.adress .contacts:focus {
+  color: var(--accent-color);
+}
